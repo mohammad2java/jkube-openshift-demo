@@ -31,6 +31,7 @@
 		<spring-cloud.version>2025.0.0</spring-cloud.version>
 		<jkube.createExternalUrls>true</jkube.createExternalUrls>
 		<jkube.replicas>1</jkube.replicas>
+		<jkube.container-image.name>gateway-demo:${git.commit.id.abbrev}</jkube.container-image.name>
 	</properties>
 	<dependencies>
 		<dependency>
